@@ -30,7 +30,7 @@ app.use(async (req, res, next) => {
     console.log("Arcjet decision", decision);
 
     if (decision.isDenied()) {
-      if (decision.reason.isRateLimited()) {
+      if (decision.reason.isRateLimit()) {
         res
           .status(429)
           .json({ error: "Too many requests, please try again later." });
