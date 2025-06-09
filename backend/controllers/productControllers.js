@@ -1,4 +1,5 @@
 import { sql } from "../config/db.js";
+import React from "react";
 
 export const getProducts = async (req, res) => {
   // Logic to get all products from the database

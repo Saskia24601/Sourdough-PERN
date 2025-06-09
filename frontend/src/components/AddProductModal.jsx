@@ -7,6 +7,8 @@ import {
 } from "lucide-react";
 import { useProductStore } from "../store/useProductStore";
 
+import React from "react";
+
 function AddProductModal() {
   const { addProduct, formData, setFormData, loading } = useProductStore();
 

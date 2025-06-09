@@ -1,5 +1,5 @@
 import NavBar from "./components/NavBar";
-
+import React from "react";
 import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 

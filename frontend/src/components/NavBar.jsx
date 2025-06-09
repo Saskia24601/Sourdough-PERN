@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { ShoppingCartIcon } from "lucide-react";
 import ThemeSelector from "./ThemeSelector";
+import React from "react";
 
 function NavBar() {
   return (

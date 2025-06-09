@@ -1,4 +1,5 @@
 import { sql } from "../config/db.js";
+import React from "react";
 
 const SAMPLE_PRODUCTS = [
   {

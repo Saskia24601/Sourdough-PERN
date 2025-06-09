@@ -3,6 +3,7 @@ import { useProductStore } from "../store/useProductStore";
 import { Package2Icon, PlusCircleIcon, RefreshCwIcon } from "lucide-react";
 import ProductCard from "../components/ProductCard";
 import AddProductModal from "../components/AddProductModal";
+import React from "react";
 
 function HomePage() {
   const { products, loading, error, fetchProducts } = useProductStore();

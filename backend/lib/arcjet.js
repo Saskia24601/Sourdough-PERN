@@ -4,6 +4,7 @@ import arcjet, {
   detectBot,
   slidingWindow,
 } from "@arcjet/node";
+import React from "react";
 
 import "dotenv/config";
 

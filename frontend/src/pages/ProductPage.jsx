@@ -2,7 +2,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useProductStore } from "../store/useProductStore";
 import { useEffect } from "react";
 import { ArrowLeftIcon, SaveIcon, Trash2Icon } from "lucide-react";
-
+import React from "react";
 function ProductPage() {
   const {
     currentProduct,

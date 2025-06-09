@@ -4,6 +4,7 @@ import morgan from "morgan";
 import cors from "cors";
 import dotenv from "dotenv";
 import path from "path";
+import React from "react";
 
 import productRoutes from "./routes/productRoute.js"; // Importing product routes
 import { sql } from "./config/db.js";
