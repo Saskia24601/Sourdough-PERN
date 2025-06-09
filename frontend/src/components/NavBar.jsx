@@ -40,13 +40,13 @@ function NavBar() {
             className="menu menu-m dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-42"
           >
             <li>
-              <a>About</a>
+              <a></a>
             </li>
             <li>
-              <a>Shop</a>
+              <a></a>
             </li>
             <li>
-              <a>Contact</a>
+              <a></a>
             </li>
           </ul>
         </div>
@@ -55,13 +55,13 @@ function NavBar() {
       <div className="navbar-end flex-1 justify-end hidden lg:flex">
         <ul className="menu-lg menu-horizontal px-1 flex justify-center space-x-8">
           <li className="flex items-center">
-            <a>About</a>
+            <a></a>
           </li>
           <li className="flex items-center">
-            <a>Shop</a>
+            <a></a>
           </li>
           <li className="flex items-center">
-            <a>Contact</a>
+            <a></a>
           </li>
         </ul>
       </div>
